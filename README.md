@@ -4,11 +4,7 @@ A simple and clean photo gallery project built with **HTML**, **CSS**, **JavaScr
 
 ## 📸 Demo / Preview
 
-<<<<<<< HEAD
-![screenshot](photos/example.jpg)
-=======
 ![screenshot](photos/gallery-example.png)
->>>>>>> df3abcc (Update README.md)
 
 ## 🚀 Features
 
@@ -28,8 +24,3 @@ A simple and clean photo gallery project built with **HTML**, **CSS**, **JavaScr
 - JavaScript reads this JSON and dynamically injects each image and its data into the HTML grid
 - All images are displayed in a responsive gallery layout
 
-<<<<<<< HEAD
-## 📂 Folder Structure
-
-=======
->>>>>>> df3abcc (Update README.md)

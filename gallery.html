@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="./css/gallery.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="paper">
+
+      <div class="file-list-column" id="fileList"></div>
+
+      <div class="gallery-columns">
+        <div class="column" id="col1"></div>
+        <div class="column" id="col2"></div>
+        <div class="column" id="col3"></div>
+      </div>
+      
+    </div>
+
+    
+    <div class="single-display">
+      
+      <div id="single-photo"></div>
+
+      <div class="single-photo-info">
+        <div class="top"><div id="single-name"></div></div>
+        <div class="single-photo-info-content">
+          
+          <div id="single-description"></div>
+          <br>
+          location_and_time:
+          <div id="single-location"></div>
+          <div id="single-date"></div>
+          <br>
+          metadata:
+          <div id="single-dimenstions"></div>
+          <div id="single-filesize"></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+  </div>
+
+  <script type="module" src="./js/gallery_filename_list.js"></script>
+  <script type="module" src="./js/gallery_photos.js"></script>
+
+
+</body>
+
+</html>
